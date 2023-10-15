@@ -6,6 +6,9 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class SymfonyFinding implements Finding
 {
+    /**
+     * @param Crawler $crawler
+     */
     public function __construct(
         protected Crawler $crawler
     ) {}
