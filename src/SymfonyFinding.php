@@ -26,6 +26,7 @@ class SymfonyFinding implements Finding
         }
 
         $contents = [];
+
         foreach ($crawler as $item) {
             $contents[] = trim($item->textContent);
         }
