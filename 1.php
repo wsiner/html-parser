@@ -21,7 +21,7 @@ foreach ($trs as $tr) {
         $price_earnings_ratios += (float) $price_earnings_ratio;
     }
 }
-var_dump('总市盈率：' . $price_earnings_ratios);
+//var_dump('总市盈率：' . $price_earnings_ratios);
 var_dump('计算公司数量：' . $companies);
 var_dump('平均市盈率：' . number_format(($price_earnings_ratios / $companies), 2));
 
